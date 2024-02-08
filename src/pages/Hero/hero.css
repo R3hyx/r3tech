@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    flex-direction: column;
+}
+
+.squares {
+    position: absolute;
+    
+}
+
+.logo {
+    width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 300px;
+    }
+ }
+
+
+

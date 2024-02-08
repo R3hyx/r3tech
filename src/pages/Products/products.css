@@ -1,0 +1,28 @@
+.containerProducts {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding-top: 10em;
+   overflow-x: hidden;
+}
+
+.restock {
+   width: 600px
+}
+
+.datarex {
+   width: 500px
+}
+
+@media screen and (max-width: 610px) {
+   .restock {
+      width: 350px
+   }
+   
+   .datarex {
+      width: 300px
+   }
+}
+

@@ -1,0 +1,33 @@
+.techImg {
+    opacity: 0.5;
+    transition: opacity 0.2s linear;
+    width: 80px;
+    height: 80px;
+}
+
+.nodeImg {
+    width: 100px;
+    height: 80px;
+    opacity: 0.5;
+    transition: opacity 0.2s linear;
+}
+
+.techImg:hover {
+    opacity: 1;
+}
+
+.nodeImg:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+    .techImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nodeImg {
+        width: 80px;
+        height: 50px;
+    }
+}

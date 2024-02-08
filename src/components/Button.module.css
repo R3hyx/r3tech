@@ -1,0 +1,29 @@
+.r3btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--graphite);
+    color:var(--silver);
+    font-size: 20px;
+    font-family: 'Nasalization';
+    /* padding: 15px 60px 15px 60px; */
+    margin: 15px;
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #09abfd;
+    box-shadow: 0 0 18px 15px rgba(9, 171, 253, 0.4);
+    transition: border 0.2s linear, box-shadow 0.4s linear, width 0.1s linear, height 0.1s linear;
+}
+
+.r3btn:hover {
+    border: 2px solid #09abfd;
+    cursor: pointer;
+    box-shadow: 0 0 18px 18px rgba(9, 171, 253, 0.6);
+}
+
+.r3btn:active {
+    width: 230px;
+    height: 55px;
+    border-radius: 8px;
+}
