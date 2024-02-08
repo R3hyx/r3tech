@@ -18,8 +18,7 @@ const Auto = () => {
             marginTop: '30vh', 
             flexDirection: 'column', 
             alignItems: 'center', 
-            // width: '50%',
-            marginBottom: 400,
+            marginBottom: 100,
             scale: scrollYProgress,
             opacity: scrollYProgress
             }}>
