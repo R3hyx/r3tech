@@ -21,9 +21,9 @@ const Contact = () => {
             </motion.div>
 
             <div style={{display: 'flex', marginBottom: '2em', flexWrap: 'wrap', alignContent: 'center', justifyContent: 'center', gap: '2em', zIndex: 5}}>
-                <Button textButton='Email' link='mailto:r3rehak@gmail.com'/>
+                <Button textButton='r3techcz@gmail.com' link='mailto:r3techcz@gmail.com'/>
                 <Button textButton='LinkedIn' link='https://www.linkedin.com/company/r3technologiesinfo'/>
-                <Button textButton='Telefon' link='tel:+420777066841'/>
+                <Button textButton='+420 777 066 841' link='tel:+420777066841'/>
             </div>
 
             <div style={{position: 'fixed', backgroundColor: 'rgba(0,0,255,0.7)', top: '20vh', right:'0vw', filter: 'blur(20vh)',  height: '50vh', width: '30vw'}}></div>
