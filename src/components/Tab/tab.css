@@ -35,6 +35,9 @@
         top: 32px;
         left: 16px;
     }
+    .tabLogo:hover{
+        width: 3em;
+    }
     .containerTab{
         gap: 8;
     }
