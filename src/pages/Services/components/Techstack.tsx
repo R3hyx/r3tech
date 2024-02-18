@@ -12,7 +12,7 @@ const Techstack = () => {
     
     return (
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 16}}>
-            <h3>Náš Techstack.</h3>
+            <h3 style={{fontWeight: 'lighter'}}>Náš Techstack.</h3>
             <div style={{display: 'flex', gap: 24, flexWrap: 'wrap', justifyContent: 'center', padding: 16}}>
                 <img src={node} className='nodeImg' alt='node js'/>
                 <img src={js} className='techImg' alt='javascript'/>

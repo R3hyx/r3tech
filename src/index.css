@@ -1,6 +1,6 @@
 :root {
   color-scheme: dark;
-  --dark: #000001;
+  --dark: #040404;
   --graphite: #252525;
   --iron: #A0A0A0;
   --silver: #f0f0f0;
@@ -53,13 +53,13 @@ h2{
 h3{
   font-size: 2em;
   font-family: 'Inter';
-  font-weight: lighter;
+  font-weight: medium;
   color: var(--silver)
 }
 p{
   font-size: 2em;
   font-family: 'Inter';
-  font-weight: lighter;
+  font-weight: medium;
   color: var(--iron)
 }
 

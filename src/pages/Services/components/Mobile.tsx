@@ -22,7 +22,7 @@ const Mobile = () => {
                 <div className="descriptionAndImg">
                     <h2>Mobilní aplikace.</h2>
                     <div className="description">
-                        <p>Moderní mobilní aplikace pro moderní podnikání. Přinášíme nejen kód, ale i kreativitu, abychom vytvořili mobilní aplikaci, která otevírá nové možnosti pro Vaši značku.</p>
+                        <p className="servicesP">Moderní mobilní aplikace pro moderní podnikání. Přinášíme nejen kód, ale i kreativitu, abychom vytvořili mobilní aplikaci, která otevírá nové možnosti pro Vaši značku.</p>
                     </div>
 
                     <img src={app} className='imgServices' alt='vývoj mobilních aplikací na míru'/>

@@ -1,6 +1,7 @@
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
-import web from '../assets/w.svg'
+// import web from '../assets/w.svg'
+import web from '../assets/pageW.svg'
 
 const Web = () => {
 
@@ -27,7 +28,8 @@ const Web = () => {
                         <p>Rychlý a inovativní web development. S námi získáte špičkový web, který vystihuje podstatu Vašeho podnikání a zanechává trvalý dojem.</p>
                     </div>
 
-                    <img src={web} className="imgServices" alt='vývoj webu a webových aplikací na míru'/>
+                    <img src={web} className="imgServicesWeb" alt='vývoj webu a webových aplikací na míru'/>
+
                 </div>
         </motion.div>
     );

@@ -4,7 +4,10 @@
     border-radius: 16px; 
     opacity: 0.8;
 }
-
+.imgServicesWeb {
+    width: 100%;
+    opacity: 0.8;
+}
 .descriptionAndImg{
     padding: 16px;
     display: flex;
@@ -17,8 +20,17 @@
     width: 800px;
 }
 
+
 @media screen and (max-width: 860px) {
     .description{
-        width: 100%;
+        width: 90%;
+        padding: 0 24px;
+    }
+  }
+
+  @media screen and (min-width: 860px) {
+    .imgServicesWeb {
+        width: 860px;
+        opacity: 0.8;
     }
   }

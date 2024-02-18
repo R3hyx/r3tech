@@ -2,7 +2,6 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import Tab from '../../components/Tab/Tab';
 import Auto from './components/Auto';
-import Bg from './components/Bg';
 import Experience from './components/Experience';
 import Mobile from './components/Mobile';
 import Techstack from './components/Techstack';

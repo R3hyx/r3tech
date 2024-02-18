@@ -17,8 +17,9 @@ const Hero = () => {
             <Tab/>
 
         
-            <motion.img src={squares} className='squares' initial={{ height: 0, width: 800 }}
-                animate={{ height: 700, width: 800 }}
+            <motion.img src={squares} className='squares'
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 transition={{ duration: 0.6 }}/>
              
             <motion.div 
