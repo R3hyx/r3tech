@@ -43,6 +43,21 @@
     }
   }
 
+  @media screen and (max-width: 400px) {
+    .tabLogo{
+        width: 2.5em;
+        top: 38px;
+        left: 16px;
+    }
+    .tabLogo:hover{
+        width: 2.6em;
+    }
+    .containerTab{
+        gap: 2px;
+        right: 8px;
+    }
+  }
+
 .tabLink {
     text-decoration: none;
     padding-top: 10px;

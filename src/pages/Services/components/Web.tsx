@@ -1,7 +1,7 @@
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 // import web from '../assets/w.svg'
-import web from '../assets/pageW.svg'
+import web from '../assets/pageW.png'
 
 const Web = () => {
 

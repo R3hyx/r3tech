@@ -9,7 +9,8 @@
 }
 
 .restock {
-   width: 600px
+   width: 600px;
+   margin-left: 32px;
 }
 
 .datarex {

@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import './tab.css'; 
 import r3 from '../../assets/r3logo.svg';
+import { useEffect, useState } from 'react';
 
 const Tab = () => {
-
     return (
         <div>
             <NavLink to='/'>

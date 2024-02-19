@@ -6,7 +6,6 @@
 }
 .imgServicesWeb {
     width: 100%;
-    opacity: 0.8;
 }
 .descriptionAndImg{
     padding: 16px;
@@ -28,9 +27,19 @@
     }
   }
 
-  @media screen and (min-width: 860px) {
+    @media screen and (min-width: 860px) {
     .imgServicesWeb {
         width: 860px;
-        opacity: 0.8;
+        }
     }
-  }
+
+    @media screen and (max-width: 420px) {
+    .imgServicesWeb {
+        width: 80%;
+        }
+    .imgServices {
+        width: 80%;
+        height: 80%;
+        }
+        
+    }
