@@ -1,6 +1,5 @@
 import { motion, useScroll } from 'framer-motion';
-import React, { useRef } from 'react';
-import Button from '../../../components/Button';
+import { useRef } from 'react';
 import '../products.css'
 const Datarex = () => {
 
