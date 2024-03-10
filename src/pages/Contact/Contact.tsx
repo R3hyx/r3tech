@@ -21,7 +21,7 @@ const Contact = () => {
             </motion.div>
 
             <div style={{display: 'flex', marginBottom: '2em', flexWrap: 'wrap', alignContent: 'center', justifyContent: 'center', gap: '2em', zIndex: 5}}>
-                <Button textButton='r3techcz@gmail.com' link='mailto:r3techcz@gmail.com'/>
+                <Button textButton='info@r3tech.cz' link='mailto:info@r3tech.cz'/>
                 <Button textButton='LinkedIn' link='https://www.linkedin.com/company/r3technologiesinfo'/>
                 <Button textButton='+420 777 066 841' link='tel:+420777066841'/>
             </div>
