@@ -1,5 +1,4 @@
 import styles from './Button.module.css';
-import { useState } from 'react';
 
 function Button({ textButton, onMouseUpCallback, link }: { textButton: string; onMouseUpCallback?: () => void, link?: string }) {
     const btnText = textButton;

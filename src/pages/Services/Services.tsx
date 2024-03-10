@@ -1,12 +1,10 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef } from 'react';
+import { motion } from 'framer-motion';
 import Tab from '../../components/Tab/Tab';
 import Auto from './components/Auto';
 import Experience from './components/Experience';
 import Mobile from './components/Mobile';
 import Techstack from './components/Techstack';
 import Web from './components/Web';
-import bg from './assets/background.svg';
 import './services.css';
 
 const Services = () => {
